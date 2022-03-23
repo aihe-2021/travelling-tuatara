@@ -1,10 +1,132 @@
 body {
-  position: absolute;
   top: 0;
   left: 0;
   margin: 0;
-  padding: 20px;
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.center {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.center_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  transition-duration: 1s;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.6);
+  height: 25vh;
+  width: 25vw;
+  border: 2px solid;
+}
+
+.center_image:hover {
+  transform: scale(1.3);
+}
+
+.background {
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background_div1 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: inline-block;
+  display: inline;
+  flex-wrap: wrap;
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid black;
+}
+
+.background_div2 {
+  top: 0;
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  display: inline;
+  flex-wrap: wrap;
+  width: 50vw;
+  height: 50vh;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.background_div3 {
+  bottom: 0;
+  left: 0;
+
+  position: absolute;
+  display: inline-block;
+  display: inline;
+  flex-wrap: wrap;
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid black;
+}
+
+.background_div4 {
+  bottom: 0;
+  right: 0;
+  position:absolute;
+  display: inline-block;
+  display: inline;
+  flex-wrap: wrap;
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid black;
+}
+
+.background_image {
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.5s;
+}
+
+.background_image:hover {
+  opacity: 0.5;
+}
+
+.Link_Text { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.Link_Text:hover{
+  opacity: 1;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: underline;
+  z-index: 3;
+}
+
+.footer-links {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
 
 
