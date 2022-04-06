@@ -21,7 +21,7 @@ function Landing () {
       <div className="container2">
         <div className="content">
           <div className="content-overlay"></div>
-          <img className='image' src='/images/tt-logo.jpeg'/>
+          <img className='image' src='/images/painting.jpeg'/>
           <div className="content-details fadeIn-bottom">
             <Link to='/art' style={{ textDecoration: 'none' }}><h1 className="content-title">Art</h1>
               <p className="content-text">Travelling Tuatara Creations</p></Link>
@@ -31,9 +31,9 @@ function Landing () {
       <div className="container3">
         <div className="content">
           <div className="content-overlay"></div>
-          <img className='image' src='/images/art.jpeg'/>
+          <img className='image' src='/images/records.jpg'/>
           <div className="content-details fadeIn-bottom">
-            <Link to='/music' style={{ textDecoration: 'none' }} ><h1 className="content-title">Media</h1>
+            <Link to='/media' style={{ textDecoration: 'none' }} ><h1 className="content-title">Media</h1>
               <p className="content-text">Find various media links</p></Link>
           </div>
         </div>
@@ -41,7 +41,7 @@ function Landing () {
       <div className="container4">
         <div className="content">
           <div className="content-overlay"></div>
-          <img className='image' src='/images/forest.jpeg'/>
+          <img className='image' src='/images/brian-canoeing.jpeg'/>
           <div className="content-details fadeIn-bottom">
             <Link to='/testimonials' style={{ textDecoration: 'none' }}><h1 className="content-title">Testimonials</h1>
               <p className="content-text">Testimonials from previous clients</p></Link>

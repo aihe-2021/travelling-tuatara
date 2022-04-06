@@ -281,16 +281,25 @@ body {
   padding-top: 1%;
 }
 .jill-about h1 {
+  padding-top: 2%;
   text-align: center;
   text-decoration: underline;
 }
+.jill-about h2 {
+  padding-top: 2%;
+  text-align: center;
+}
+
 .jill-about p {
-  width: 75%;
+  // width: 75%;
+  text-align: center;
   padding-left: 1%;
+  padding-right: 2%;
   font-size: 2vw;
-  padding-top: 3%;
+  padding-top: 5%;
   padding-bottom: 5%;
 }
+
 .brian-about {
   position: absolute;
   left: 0;
@@ -302,13 +311,101 @@ body {
   padding-top: 1%;
 }
 .brian-about h1 {
+  padding-top: 2%;
   text-align: center;
   text-decoration: underline;
 }
+
+.brian-about h2 {
+  padding-top: 2%;
+  text-align: center;
+}
+
 .brian-about p {
-  width: 75%;
+  // width: 75%;
+  // text-align: center;
   padding-left: 1%;
+  padding-right: 1%;
   font-size: 2vw;
-  padding-top: 3%;
+  padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.media {
+  opacity: 0.9;
+  right: 0;
+  position: absolute;
+  padding-top: 2%;
+  padding-right: 1%;
+}
+
+.image-media {
+  width: 40vw;
+  height: 72vh;
+  object-fit: cover;
+  border: 5px solid rgb(19, 19, 20);
+  z-index: 2;
+}
+
+.media-links {
+  position: absolute;
+  left: 0;
+  width: 55vw;
+  height: 72vh;
+  border-top: 5px solid rgb(19, 19, 20);
+  margin-top: 2%;
+  margin-left: 1%;
+  padding-top: 1%;
+}
+.media-links h1 {
+  padding-top: 2%;
+  text-align: center;
+  text-decoration: underline;
+}
+.media-links h3 {
+  padding-top: 4%;
+  padding-bottom: 2%;
+  text-decoration: underline;
+}
+
+.media-links img {
+  transition: 0.5s;
+}
+
+.media-links img:hover {
+  transform: scale(1.5);
+}
+
+// .media-links p {
+//   // width: 75%;
+//   text-align: center;
+//   padding-left: 1%;
+//   padding-right: 1%;
+//   font-size: 2vw;
+//   padding-top: 2%;
+//   padding-bottom: 5%;
+// }
+
+.links-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.links-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.links-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
