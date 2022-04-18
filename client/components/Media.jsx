@@ -18,7 +18,7 @@ function Media () {
       </div>
       <div className='media-links'>
         <h1>Media Links</h1>
-        <h3>Youtube Links</h3>
+        <h3 className='youtube'>Youtube</h3>
         <ul>
           <li>
             <a href='https://youtu.be/jG6Aftzvxmg'><h4 className="links-underline-animation">Helicopter</h4></a>
@@ -42,32 +42,25 @@ function Media () {
             <a href='https://youtu.be/dDxwP-stMCk'><h4 className="links-underline-animation">Warmth</h4></a>
           </li>
         </ul>
-        <h3>Articles</h3>
+        <h3 className='articles'>Articles</h3>
         <ul>
           <li>
             <a href='https://www.nzherald.co.nz/rotorua-daily-post/news/travelling-tuataras-take-the-honours-video/OLBYLHQBIW7U7YGOCFCVJXE2A4/'><h4 className="links-underline-animation">Travelling Tuataras the the honours</h4></a>
           </li>
           <li>
-            <a href='http://www.poetlaureate.org.nz/2020/07/the-situation-brian-potiki.html'><h4 className="links-underline-animation">The Situation: Brian Potiki</h4></a>
+            <a href='https://nz.locale.online/the-travelling-tuataras-6392817.html'><h4 className="links-underline-animation">About: The Travelling Tuatara</h4></a>
           </li>
           <li>
             <a href='https://www.nzepc.auckland.ac.nz/features/whetu_moana/b_potiki.asp'><h4 className="links-underline-animation">Tony by Brian Potiki</h4></a>
           </li>
           <li>
-            <a href='https://youtu.be/OPvLJ2mrdfY'><h4 className="links-underline-animation">Wilma the Worm</h4></a>
-          </li>
-          <li>
-            <a href='https://youtu.be/wNlLvu1xKyo'><h4 className="links-underline-animation">Music and Intereactive</h4></a>
-          </li>
-          <li>
-            <a href='https://youtu.be/Cppi8w1ltsY'><h4 className="links-underline-animation">Come Here</h4></a>
-          </li>
-          <li>
-            <a href='https://youtu.be/dDxwP-stMCk'><h4 className="links-underline-animation">Warmth</h4></a>
+            <a href='https://www.glartent.com/XX/Unknown/125603954140140/The-Travelling-Tuataras'><h4 className="links-underline-animation">Glartent: The Travelling Tuatara</h4></a>
           </li>
         </ul>
-        <h3>Facebook Link</h3>
-        <a href='https://www.facebook.com/thetravellingtuataras'><img src="/images/icons8-facebook-48.png"/></a>
+        <h3 className='facebook'>Facebook</h3>
+        <div className='facebook-div'>
+          <a href='https://www.facebook.com/thetravellingtuataras'><img src="/images/icons8-facebook-48.png"/></a>
+        </div>
       </div>
     </>
   )
