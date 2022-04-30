@@ -378,7 +378,7 @@ ul {
   width: 55vw;
   height: 72vh;
   border-top: 5px solid rgb(19, 19, 20);
-  border-bottom: 5px solid rgb(19, 19, 20);
+  // border-bottom: 5px solid rgb(19, 19, 20);
   margin-top: 2%;
   margin-left: 1%;
   padding-top: 1%;
@@ -396,12 +396,11 @@ ul {
 }
 
 .media-links img {
-  padding-top: 30%;
   transition: 0.5s;
 }
 
 .media-links img:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 .list-style {
@@ -458,4 +457,32 @@ ul {
 
 .facebook-div {
   display: flex;
+}
+
+.art_content {
+  width: 100%;
+  
+}
+
+.art_content_images {
+  display: block;
+  // margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  // width: 50%;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.art_content_images img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+  
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }

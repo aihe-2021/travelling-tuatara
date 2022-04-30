@@ -23,8 +23,8 @@ function Landing () {
           <div className="content-overlay"></div>
           <img className='image' src='/images/painting.jpeg'/>
           <div className="content-details fadeIn-bottom">
-            <Link to='/art' style={{ textDecoration: 'none' }}><h1 className="content-title">Art</h1>
-              <p className="content-text">Travelling Tuatara Creations</p></Link>
+            <h1 className="content-title">Art</h1>
+            <Link to='/art' style={{ textDecoration: 'none' }}><p className="hover-underline-animation">Travelling Tuatara Creations</p></Link>
           </div>
         </div>
       </div>
@@ -33,8 +33,8 @@ function Landing () {
           <div className="content-overlay"></div>
           <img className='image' src='/images/records.jpg'/>
           <div className="content-details fadeIn-bottom">
-            <Link to='/media' style={{ textDecoration: 'none' }} ><h1 className="content-title">Media</h1>
-              <p className="content-text">Find various media links</p></Link>
+            <h1 className="content-title">Media</h1>
+            <Link to='/media' style={{ textDecoration: 'none' }} ><p className="hover-underline-animation">Find various media links</p></Link>
           </div>
         </div>
       </div>
@@ -43,8 +43,8 @@ function Landing () {
           <div className="content-overlay"></div>
           <img className='image' src='/images/brian-canoeing.jpeg'/>
           <div className="content-details fadeIn-bottom">
-            <Link to='/testimonials' style={{ textDecoration: 'none' }}><h1 className="content-title">Testimonials</h1>
-              <p className="content-text">Testimonials from previous clients</p></Link>
+            <h1 className="content-title">Testimonials</h1>
+            <Link to='/testimonials' style={{ textDecoration: 'none' }}><p className="hover-underline-animation">Testimonials from previous clients</p></Link>
           </div>
         </div>
       </div>
