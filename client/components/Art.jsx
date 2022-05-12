@@ -10,6 +10,20 @@ function Art () {
     '/images/painting.jpeg',
     '/images/jill-art.jpeg',
     '/images/tiki.jpeg',
+    '/images/art1.jpeg',
+    '/images/art2.jpeg',
+    '/images/art3.jpeg',
+    '/images/art4.jpeg',
+    '/images/art5.jpeg',
+    '/images/art6.jpeg',
+    '/images/art7.jpeg',
+    '/images/art8.jpeg',
+    '/images/art9.jpeg',
+    '/images/art10.jpeg',
+    '/images/art11.jpeg',
+    '/images/art12.jpeg',
+    '/images/art13.jpeg',
+    '/images/art14.jpeg',
     '/images/windsock.jpeg'
   ]
 
@@ -24,33 +38,35 @@ function Art () {
   }
   return (
     <>
-      <div className='header'>
-        <img className='banner-image' src='/images/painting.jpeg'/>
-        <div className='centered'><h1>The Travelling Tuatara</h1></div>
-      </div>
-
-      <div className= 'art_content'>
-        <div className='art_content_images'>
-          {images.map((src, index) => (
-            <img
-              src={ src }
-              onClick={ () => openImageViewer(index) }
-              key={ index }
-              style={{ margin: '10px' }}
-              alt=""
-            />
-          ))}
+      <div className='art_page'>
+        <div className='header'>
+          <img className='banner-image' src='/images/painting.jpeg'/>
+          <div className='centered'><h1>The Travelling Tuatara</h1></div>
         </div>
+        <div className='art_title'><h1>Creations from Various Travelling Tuatara Projects.</h1></div>
+        <div className= 'art_content'>
+          <div className='art_content_images'>
+            {images.map((src, index) => (
+              <img
+                src={ src }
+                onClick={ () => openImageViewer(index) }
+                key={ index }
+                style={{ margin: '10px' }}
+                alt=""
+              />
+            ))}
+          </div>
 
-        {isViewerOpen && (
-          <ImageViewer
-            src={ images }
-            currentIndex={ currentImage }
-            disableScroll={ false }
-            closeOnClickOutside={ true }
-            onClose={ closeImageViewer }
-          />
-        )}
+          {isViewerOpen && (
+            <ImageViewer
+              src={ images }
+              currentIndex={ currentImage }
+              disableScroll={ false }
+              closeOnClickOutside={ true }
+              onClose={ closeImageViewer }
+            />
+          )}
+        </div>
       </div>
     </>
   )
